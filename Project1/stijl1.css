@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Caveat;
+    font-size: 1.15em;
+    color: white;
+}
+
+body {
+
+    background-image: url(afbeeldingen/achtergrond/index.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+header {
+ margin-top: 15px;
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ padding: 1rem;
+ background-color: transparent;
+ display: flex;
+ align-items: center;
+ padding-left: 1300px;
+}
+
+.logo {
+    margin-top: 50px;
+    font-size: 3rem;
+    color: #C41E3A;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+
+
+nav a {
+font-size: 1.5rem;
+color: white;
+margin-left: 4rem;
+font-weight: 500;
+border-bottom: 3px solid transparent;
+
+}
+
+nav a:hover,
+nav a.active {
+color: #C41E3A;
+border-bottom: 3px solid #C41E3A;
+}
+
+img {
+    float: right;
+    margin-right: 50px;
+    margin-top: 170px;
+    border-radius: 25%;
+    height: auto;
+    width: 500px;
+}
+
+.container {
+    width: 35%;
+    color: transparent;
+    position: relative;
+    left: 20%;
+    margin-top: 15%;
+}
+
+#program {
+    font-size: 3rem;
+    color: #C41E3A;
+    font-weight: 800;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+

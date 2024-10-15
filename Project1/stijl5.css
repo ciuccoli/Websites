@@ -1,0 +1,123 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Caveat;
+    font-size: 1.15em;
+    color: white;
+}
+
+
+body {
+    background-image: url(afbeeldingen/achtergrond/Contact.jpg);
+    background-size: 100vw 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+
+}
+
+nav a {
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 4rem;
+    font-weight: 500;
+    border-bottom: 3px solid transparent;
+    
+    }
+    
+    nav a:hover,
+    nav a.active {
+    color: #C41E3A;
+    border-bottom: 3px solid #C41E3A;
+    }
+
+    img {
+        width: 30%;
+        height: auto;
+        float:right;
+        margin-right: 150px;
+        margin-top: 90px;
+        border-radius: 25%;
+        opacity: 0.7;
+    }
+
+    header {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        text-decoration: underline;
+        margin-top: 60px;
+    }
+
+
+    .container1 {
+        margin-left: 200px;
+        margin-top: 50px;
+    }
+
+    form {
+        font-size: 16px;
+
+
+    }
+
+    input {
+        background-color:rgb(0, 0, 0, 0.25);
+        height: 50px;
+        width: 30%;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+
+    }
+
+    label {
+        color: aquamarine;
+        text-align: center;
+    }
+
+    textarea {
+        background-color:rgb(0, 0, 0, 0.25);
+        width: 50%;
+        resize: none;
+        padding: 10px;
+
+    }
+
+    .container2 {
+        width: 20%;
+        float: right;
+        position: relative;
+        bottom: 170px;
+        right: 230px;
+        height: 50px;
+
+    }
+
+    .flex-container {
+        display: flex;
+        float: right;
+        margin-right: 340px;
+        position: relative;
+        bottom: 150px;
+
+
+    }
+
+    .flex-container2 {
+        display: flex;
+        flex-direction: row;
+        width: 10px;
+        height: auto;
+    }
+
+
+
+
+
+
