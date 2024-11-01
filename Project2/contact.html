@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Zimmy Ciuccoli">
+    <meta name="description" content="zimmy Portfolio">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stijl5.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+      <link rel="shortcut icon" href="afbeeldingen/favicon-16x16.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-md navbar-light">
+
+        <div class="container-xxl">
+            <a href="index.html" class="navbar-brand">
+                <span class="fw-bold" style="color:#E7DFDD">
+                    Zimmy-Portfolio
+                </span>
+
+
+
+            </a>
+    <!--toggle knop -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+             aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation" style="color:#E7DFDD">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+    <!--navbar links-->
+
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"> <a class= "nav-link" href="index.html" style="color:#E7DFDD">Home</a> </li>
+                    <li class="nav-item"> <a class= "nav-link" href="curriculum_vitae.html" style="color:#E7DFDD">Curriculum Vitae</a> </li>
+                    <li class="nav-item"> <a class= "nav-link" href="ervaring.html" style="color:#E7DFDD">Ervaringen</a> </li>
+                    <li class="nav-item"> <a class= "nav-link" href="hobby's.html" style="color:#E7DFDD">Hobby's</a> </li>
+                    <li class="nav-item"> <a class= "nav-link" href="contact.html" style="color:#E7DFDD">Contact</a> </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+        <!--title-->
+        <div class=" rounded-3 text-center my-3">
+            <div class="container-fluid ">
+                <h1 class="containert" style="text-decoration: underline;">Contact</h1><br>
+                <p class="lead">Vragen of meer info nodig? vul het formulier in!</p>
+            </div>
+
+
+        </div>
+
+        <div class="d-flex">
+            <div class="row align-items-start justify-content-around my-5 ">
+                <div class="col-lg-5">
+                    <form action="https://tm-statweb.be/forms.php" method="post">
+                        <label for="email" class="form-label">Email adres:</label>
+                        <div class="mb-4 input-group"> 
+                            <span class="input-group-text">
+                                <i class="bi bi-envelope-fill" style="background-color: #E7DFDD; border: none;"></i>
+                            </span>
+                            <input type="email" class="form-control" id="email" placeholder="zimmy@voorbeeld.be" required name="email">
+                        </div>
+        
+                        <label for="naam" class="form-label">Naam</label>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text">
+                                <i class="bi bi-person-fill" style="background-color: #E7DFDD; border: none;"></i>
+                            </span>
+                            <input type="text" class="form-control" id="naam" placeholder="Naam" required name="naam">
+                        </div>
+        
+                        <label for="voornaam" class="form-label">Voornaam</label>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text">
+                                <i class="bi bi-person-fill" style="background-color: #E7DFDD; border: none;"></i>
+                            </span>
+                            <input type="text" class="form-control" id="voornaam" placeholder="Voornaam" required name="voornaam">
+                        </div>
+        
+                        <label for="skills" class="form-label">Kies een skill</label>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text">
+                                <i class="bi bi-chat-right-dots-fill" style="background-color: #E7DFDD; border: none;"></i>
+                            </span>
+                            <select class="form-select" id="skills" name="skills">
+                                <option value="Html" selected>HTML</option>
+                                <option value="css">CSS</option>
+                                <option value="csharp">C#</option>
+                                <option value="java">Java</option>
+                                <option value="sql">SQL</option>
+                            </select>
+                        </div>
+        
+                        <label for="text">Uw vraag</label>
+                        <textarea id="text" class="form-control" style="height: 140px;" name="text" required></textarea>
+        
+                        <div class="mb-4 text-center mt-5">
+                            <button type="submit" class="btn btn-info btn-lg">Verzenden</button>
+                        </div>
+                    </form>
+                </div>
+        
+                <div class="col-lg-5">
+                    <div class="text-center">
+                        <h2>Reviews</h2>
+                    </div>
+                    <div class="list-group">
+                        <div class="list-group-item ">
+                            <div class="pb-2" style="background-color: #E7DFDD;">
+                                <i class="bi bi-star-fill" style="background-color: #E7DFDD;"></i>
+                                <i class="bi bi-star-fill" style="background-color: #E7DFDD;"></i>
+                                <i class="bi bi-star-fill" style="background-color: #E7DFDD;"></i>
+                                <i class="bi bi-star-fill" style="background-color: #E7DFDD;"></i>
+                                <i class="bi bi-star-fill" style="background-color: #E7DFDD;"></i>
+                            </div>
+                            <h5 class="mb-1 text-center" style="background-color: #E7DFDD;">Goed werk!</h5>
+                            <p class="mb-1" style="background-color: white;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                 Dolore ea animi saepe? Aperiam eaque autem commodi consectetur facilis veniam,
+                                  maiores officiis ducimus architecto dolore quam magnam blanditiis natus et repellendus.</p>
+                            <small style="background-color: #E7DFDD;">review door zimmy</small>
+                        </div>
+
+                        <div class="list-group-item py-3">
+                            <div class="pb-2" style="background-color: #E7DFDD;">
+                                <i class="bi bi-star-fill" style="background-color: #E7DFDD;"></i>
+                                <i class="bi bi-star-fill" style="background-color: #E7DFDD;"></i>
+                                <i class="bi bi-star-fill" style="background-color: #E7DFDD;"></i>
+                                <i class="bi bi-star-fill" style="background-color: #E7DFDD;"></i>
+                                <i class="bi bi-star-half" style="background-color: #E7DFDD;"></i>
+                            </div>
+                            <h5 class="mb-1 text-center" style="background-color: #E7DFDD;">Goed werk!</h5>
+                            <p class="mb-1" style="background-color: white;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                 Dolore ea animi saepe? Aperiam eaque autem commodi consectetur facilis veniam,
+                                  maiores officiis ducimus architecto dolore quam magnam blanditiis natus et repellendus.</p>
+                            <small style="background-color: #E7DFDD;">review door zimmy</small>
+                        </div>
+
+                        <div class="list-group-item py-3">
+                            <div class="pb-2" style="background-color: #E7DFDD;">
+                                <i class="bi bi-star-fill" style="background-color: #E7DFDD;"></i>
+                                <i class="bi bi-star-fill" style="background-color: #E7DFDD;"></i>
+                                <i class="bi bi-star-fill" style="background-color: #E7DFDD;"></i>
+                                <i class="bi bi-star-fill" style="background-color: #E7DFDD;"></i>
+                                <i class="bi bi-star-half" style="background-color: #E7DFDD;"></i>
+                            </div>
+                            <h5 class="mb-1 text-center" style="background-color: #E7DFDD;">Goed werk!</h5>
+                            <p class="mb-1" style="background-color: white;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                 Dolore ea animi saepe? Aperiam eaque autem commodi consectetur facilis veniam,
+                                  maiores officiis ducimus architecto dolore quam magnam blanditiis natus et repellendus.</p>
+                            <small style="background-color: #E7DFDD;">review door zimmy</small>
+                        </div>
+
+                        <div class="list-group-item py-3">
+                            <div class="pb-2" style="background-color: #E7DFDD;">
+                                <i class="bi bi-star-fill" style="background-color: #E7DFDD;"></i>
+                                <i class="bi bi-star-fill" style="background-color: #E7DFDD;"></i>
+                                <i class="bi bi-star-fill" style="background-color: #E7DFDD;"></i>
+                                <i class="bi bi-star-fill" style="background-color: #E7DFDD;"></i>
+                                <i class="bi bi-star-fill" style="background-color: #E7DFDD;"></i>
+                            </div>
+                            <h5 class="mb-1 text-center" style="background-color: #E7DFDD;">Goed werk!</h5>
+                            <p class="mb-1" style="background-color: white;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                 Dolore ea animi saepe? Aperiam eaque autem commodi consectetur facilis veniam,
+                                  maiores officiis ducimus architecto dolore quam magnam blanditiis natus et repellendus.</p>
+                            <small style="background-color: #E7DFDD;">review door zimmy</small>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+    <footer class="container-fluid">
+
+        <div class="footercontainer">
+            <div class="socialIcons">
+                <a href="#top" alt="facebook link" aria-label="link naar facebook socials"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#top" alt="instagram link" aria-label="link naar instagram socials"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#top" alt="twitter link" aria-label="link naar twitter socials"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#top" alt="linkedin link" aria-label="link naar linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                <a target="_blank" alt="github link" href="https://github.com/ciuccoli/Websites.git" aria-label="link naar github code"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+
+        <div class="footernav">
+            <ul class="list-unstyled">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="curriculum_vitae.html">Cv</a></li>
+                <li><a href="ervaring.html">Ervaringen</a></li>
+                <li><a href="hobby's.html">Hobby's</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+
+
+    </div>
+
+    <div class="footerbottom">
+        <p>Copyright &copy;2024 Designed by <span class="designer">Zimmy Ciuccoli</span></p>
+    </div> 
+
+</footer>
+
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
